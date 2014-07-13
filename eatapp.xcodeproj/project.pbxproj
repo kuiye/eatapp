@@ -33,9 +33,6 @@
 		AE5B29B91966F81F00AB91D2 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5B29AB1966F81F00AB91D2 /* SBJsonTokeniser.m */; };
 		AE5B29BA1966F81F00AB91D2 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5B29AD1966F81F00AB91D2 /* SBJsonUTF8Stream.m */; };
 		AE5B29BB1966F81F00AB91D2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5B29AF1966F81F00AB91D2 /* SBJsonWriter.m */; };
-		AEAB65B719641BCB00377BC8 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = AEAB65B319641BCB00377BC8 /* CHANGELOG.md */; };
-		AEAB65B819641BCB00377BC8 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAB65B519641BCB00377BC8 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AEAB65B919641BCB00377BC8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AEAB65B619641BCB00377BC8 /* README.md */; };
 		AEBCCE891963CAC10001A9A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBCCE881963CAC10001A9A8 /* Foundation.framework */; };
 		AEBCCE8B1963CAC10001A9A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBCCE8A1963CAC10001A9A8 /* CoreGraphics.framework */; };
 		AEBCCE8D1963CAC10001A9A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBCCE8C1963CAC10001A9A8 /* UIKit.framework */; };
@@ -114,10 +111,6 @@
 		AE5B29AD1966F81F00AB91D2 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
 		AE5B29AE1966F81F00AB91D2 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		AE5B29AF1966F81F00AB91D2 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		AEAB65B319641BCB00377BC8 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
-		AEAB65B419641BCB00377BC8 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		AEAB65B519641BCB00377BC8 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
-		AEAB65B619641BCB00377BC8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		AEBCCE851963CAC10001A9A8 /* eatapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eatapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBCCE881963CAC10001A9A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AEBCCE8A1963CAC10001A9A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -246,23 +239,10 @@
 			path = "../架包/iOS/SBJson";
 			sourceTree = "<group>";
 		};
-		AEAB65B219641BCB00377BC8 /* JSONKit-master */ = {
-			isa = PBXGroup;
-			children = (
-				AEAB65B319641BCB00377BC8 /* CHANGELOG.md */,
-				AEAB65B419641BCB00377BC8 /* JSONKit.h */,
-				AEAB65B519641BCB00377BC8 /* JSONKit.m */,
-				AEAB65B619641BCB00377BC8 /* README.md */,
-			);
-			name = "JSONKit-master";
-			path = "../../../Downloads/JSONKit-master";
-			sourceTree = "<group>";
-		};
 		AEBCCE7C1963CAC10001A9A8 = {
 			isa = PBXGroup;
 			children = (
 				AE5B29961966F81F00AB91D2 /* SBJson */,
-				AEAB65B219641BCB00377BC8 /* JSONKit-master */,
 				AE0A430219640132006B1FFD /* MKNetworkKit */,
 				AEBCCE8E1963CAC10001A9A8 /* eatapp */,
 				AEBCCEAD1963CAC10001A9A8 /* eatappTests */,
@@ -419,9 +399,7 @@
 			files = (
 				AEBCCEA11963CAC10001A9A8 /* Images.xcassets in Resources */,
 				AEBCCE931963CAC10001A9A8 /* InfoPlist.strings in Resources */,
-				AEAB65B919641BCB00377BC8 /* README.md in Resources */,
 				AEBCCE9C1963CAC10001A9A8 /* Main.storyboard in Resources */,
-				AEAB65B719641BCB00377BC8 /* CHANGELOG.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,7 +460,6 @@
 				AE5B29B21966F81F00AB91D2 /* SBJsonStreamParser.m in Sources */,
 				AE5B29B81966F81F00AB91D2 /* SBJsonStreamWriterState.m in Sources */,
 				AE5B29B01966F81F00AB91D2 /* NSObject+SBJson.m in Sources */,
-				AEAB65B819641BCB00377BC8 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

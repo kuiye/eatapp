@@ -15,6 +15,7 @@
 #import "SBJsonParser.h"
 #import "SBJsonStreamParser.h"
 #import "SBJsonStreamWriter.h"
+
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *name;
 @property (weak, nonatomic) IBOutlet UITextField *pwd;
@@ -65,10 +66,7 @@
             _test.text=@"密码或用户名错误";
 
         }
-        
-        
-        
-    }
+   }
              onError:^(NSError *error){  
                   _test.text=@"密码或用户名错误";
              
@@ -78,7 +76,7 @@
     [engine enqueueOperation:op];
     
     //string to dictionary
-  //  NSString *resultStr = @"{\"name\": \"admin\",\"list\": [\"one\",\"two\",\"three\"]}";
+   //  NSString *resultStr = @"{\"name\": \"admin\",\"list\": [\"one\",\"two\",\"three\"]}";
     
 }
 
