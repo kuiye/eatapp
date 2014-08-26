@@ -79,5 +79,10 @@
    //  NSString *resultStr = @"{\"name\": \"admin\",\"list\": [\"one\",\"two\",\"three\"]}";
     
 }
+- (IBAction)push:(id)sender {
+    UIPageViewController *ickImageViewController = [[UIPageViewController alloc] init];
+    [self presentModalViewController:ickImageViewController animated:YES];
+    //返回
+    [self dismissModalViewControllerAnimated:YES];}
 
 @end

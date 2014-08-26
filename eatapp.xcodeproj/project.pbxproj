@@ -590,6 +590,7 @@
 				GCC_PREFIX_HEADER = "eatapp/eatapp-Prefix.pch";
 				INFOPLIST_FILE = "eatapp/eatapp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -605,6 +606,7 @@
 				GCC_PREFIX_HEADER = "eatapp/eatapp-Prefix.pch";
 				INFOPLIST_FILE = "eatapp/eatapp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
